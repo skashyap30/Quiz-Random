@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image:url(image/url1.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+.app{
+    background-color:white ;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10px;
+    border-color: rgb(6, 170, 240);
+    padding: 30px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.app h1{
+    font-size: 30px;
+    color: rgb(3, 120, 170);
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.btn{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+/* .img{
+    background-image: url(Images/Quiz\ images.jpeg);
+    height: 460px;
+    width: 730px;
+    float: left;
+    margin-top: 70px;  
+} */
+#start-btn{
+    
+    background-color: black;
+}
+
+#test{
+    color: white;
+}
